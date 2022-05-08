@@ -53,7 +53,7 @@ methodExampleReceivesOptional("Sassine");
 não funcionará pois ele não pode receber um valor que não seja Optional<T>
 
 ### ofNullable
-Neste caso não temos certeza se o valor irá existir ou será nulo, vai depender do valor gerado então utilizamos o **.ofNullable esse cara é quem irá te acompanhar para evitar e tratar todos seus NullPointers agora** 
+Neste caso não temos certeza se o valor irá existir ou será nulo, vai depender do valor gerado então utilizamos o **.ofNullable(Object)** esse cara é quem irá te acompanhar para evitar e tratar todos seus NullPointers agora!
 
 
 ```java
