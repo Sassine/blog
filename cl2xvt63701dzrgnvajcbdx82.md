@@ -6,7 +6,7 @@ Sempre que estou entrevistando um novo candidato eu o questiono sobre o uso ou c
 📦 Caso queira acompanhar a classe completa enquanto lê o artigo acesse ele no [GitHub - Optional-Stream-usecase-example](https://github.com/Sassine/optional-stream-usecase-example/blob/main/src/main/java/com/github/sassine/api/OptionalUseCase.java)
 
 ## Optional
-O uso do Optional vai muito além do JPA ele veio como uma solução para ser utilizado para simplificar as validações de objetos nulos, neste post vou mostrar a vocês todas as formas de utilizar ele no seu dia dia e com isso **reduzir em 99.9% as chances de se obter um NullPointer e tornar o seu código mais limpo.**
+O uso do Optional vai muito além do JPA ele veio como uma solução para ser utilizado para simplificar as validações de objetos nulos, neste post vou mostrar a vocês todas as formas de utilizar ele no seu dia dia e com isso *reduzir em 99.9% as chances de se obter um NullPointer e tornar o seu código mais limpo*.
 
 ###  isPresent
 Quando manipulamos Optional ele nos entrega uma função que é os **.isPresent()** que é responsável por nos informar se existe um valor ou se é nulo retorna um booleano falso e existir valor será verdadeiro
