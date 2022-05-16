@@ -30,7 +30,7 @@ A função map recebe como entrada um lambda, que será aplicado a todos os elem
 Streams pode trabalhar em **Lists, Sets e Maps** (via transformação). 
 Graças ao Streams, você pode se livrar de praticamente todos os loops em seu código! top né ?
 
-Depois vou escrever um post explicando melhor streams e editar aqui; ✨
+Quiser saber mais do Stream, da uma olhada neste post - [Java Stream - Domine as listas/coleções de uma vez por todas](https://blog.sassine.dev/java-stream-domine-as-listascolecoes-de-uma-vez-por-todas); ✨
 
 ### Optional
 Outro problema comum em Java eram as exceções de ponteiro nulo. 
@@ -47,7 +47,7 @@ Optional.of(new Random().nextInt(10))
 No trecho acima, criamos um número aleatório, envolvemos dentro de um objeto opcional e, em seguida, imprimimos o número apenas se for par.
 
 
-Depois vou escrever um post explicando melhor como utilizar o Optional e editar aqui; ✨
+Quiser saber mais do Optional, da uma olhada neste post - [Chega de NullPointer, comece a utilizar Optional em sua codificação!](https://blog.sassine.dev/chega-de-nullpointer-comece-a-utilizar-optional-em-sua-codificacao); ✨
 
 ## Java 9
 
