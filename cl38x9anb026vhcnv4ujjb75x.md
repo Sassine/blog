@@ -92,7 +92,7 @@ Valor de saída:
 ###  parallelStream
 O **parallelStream** é a mesma coisa que o forEach mas desta forma é executada em várias threads e nesta situação a ordem é indefinida. 
 
-em listas pequenas a perfomance ou talvez a ordem de resultado não sejam alterados, mas quando se trata de listas com milhares de dados imputados, a diferença é gigante!
+em listas pequenas a performance ou talvez a ordem de resultado não sejam alterados, mas quando se trata de listas com milhares de dados imputados, a diferença é gigante!
 
 ```java
 list.parallelStream().forEach(consumer);
@@ -107,7 +107,7 @@ Valor de saída:
 ### filter
 Podemos utilizar o **filter** para executar apenas a condicional separando por verdadeiro ou então podemos escrever uma regra mais complexa de filtro e determinar uma ação durante a filtragem sem precisar chamar um forEach depois.
 
-mas é preciso chamar alguma função após o filtro para que ela percorra a lista, neste caso chamei o findAny por ser a função mais perfomatica para este caso, vou falar dele mais pra frente. 
+mas é preciso chamar alguma função após o filtro para que ela percorra a lista, neste caso chamei o findAny por ser a função mais performática para este caso, vou falar dele mais pra frente. 
 
 ```java
 list.stream().filter(value -> "B".equals(value)).forEach(consumer);
@@ -254,7 +254,7 @@ Valor de saída:
 ```
 
 ## Conclusão 
-Sei que durante a leitura você relembrou uma velha implementação que fez,utilizando "for", "if e else", count, interector ..., e pensou "Nossa desse jeito fica bem melhor" 🤦‍♂️ e sei também que teve outras que talvez não tenham surtido "eficácia" olhando para o que implementa hoje, mas fica tranquilo aos poucos vão surgir casos que vai precisar utilizar estas funções, e no primeiro instante que perceber que irá precisar manipular uma lista... corre aqui que com certeza vai ter algo que vai te ajudar. 
+Sei que durante a leitura você relembrou uma velha implementação que fez, utilizando "for", "if e else", count, interector ..., e pensou "Nossa desse jeito fica bem melhor" 🤦‍♂️ e sei também que teve outras que talvez não tenham surtido "eficácia" olhando para o que implementa hoje, mas fica tranquilo aos poucos vão surgir casos que vai precisar utilizar estas funções, e no primeiro instante que perceber que irá precisar manipular uma lista... corre aqui que com certeza vai ter algo que vai te ajudar. 
 
 **Bonus**:
 Se juntarmos o que já sabemos do Optional, e tudo isso aqui quando formos manipular coleções...
