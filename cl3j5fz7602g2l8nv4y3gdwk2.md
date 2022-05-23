@@ -1,7 +1,7 @@
 ## Chega de RestTemplate, Conheça o WebClient
 
 ## Introdução
-Estava conversando com um desenvolvedor java sobre o seu projeto, que tinha a necessidade chamar essa API e persistir o retorno dela... existem N formas diferentes de codificar isso, como isolando a responsabilidade para outro serviço, abrir uma Thread(essa foi a opção que ele tinha escolhido), utilizar um Event interno, entre muitas outras opções.... 
+Estava conversando com um desenvolvedor java sobre o seu projeto, que tinha a necessidade chamar uma API e persistir o retorno dela mas não precisava do seu retorno para seguir com a jornada... existem diversas formas de codificar isso, como isolando a responsabilidade para outro serviço, abrir uma Thread(essa foi a opção que ele tinha escolhido), utilizar um Event interno, entre muitas outras opções.... 
 
 Então perguntei se ele conhecia o **WebClient**, pois ele atende exatamente essa necessidade, e obtive como resposta o seguinte:
 > "Sim, realmente ele ia suprir muito bem isso, mas ele **é só para aplicações reativas.**"
